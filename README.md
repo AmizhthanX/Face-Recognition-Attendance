@@ -9,7 +9,7 @@
 ✅ **Automatic attendance logging**  
 ✅ **Secure and efficient processing**  
 ✅ **User-friendly GUI for easy operation**  
-✅ **Stores attendance records in a database or CSV**  
+✅ **Stores attendance records in a CSV file**  
 
 ---
 
@@ -18,7 +18,7 @@
 - **OpenCV** 📷 (for face detection & recognition)  
 - **Tkinter** 🎨 (for GUI)  
 - **NumPy & Pandas** 🏡 (for data processing)  
-- **SQLite / CSV** 📂 (for attendance storage)  
+- **CSV File Handling** 📂 (for attendance storage)  
 
 ---
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### 🔹 Step 3: Run the Application  
 ```bash
-python main.py
+python app.py
 ```
 
 ---
@@ -50,11 +50,10 @@ python main.py
 ## 📚 Project Structure
 ```
 📦 Face-Recognition-Attendance  
- ┣ 📚 dataset              # Stores captured face images  
- ┣ 📚 models               # Trained face recognition models  
- ┣ 📚 attendance_records   # Stores attendance logs (CSV/DB)  
- ┣ 📝 main.py              # Main application script  
- ┣ 📝 train_model.py       # Face training script  
+ ┣ 📚 faces/              # Stores captured face images  
+ ┣ 📝 app.py              # Main application script  
+ ┣ 📝 students.csv       # Student data with face encodings  
+ ┣ 📝 attendance.csv     # Attendance records  
  ┣ 📝 requirements.txt     # List of dependencies  
  ┗ 📝 README.md            # Project documentation  
 ```
@@ -62,9 +61,9 @@ python main.py
 ---
 
 ## 🔍 How It Works
-1️⃣ **Capture faces**: The system captures and registers user faces.  
-2️⃣ **Train the model**: The system trains itself to recognize stored faces.  
-3️⃣ **Recognize & Mark Attendance**: The camera detects and verifies faces, marking attendance in real-time.  
+1️⃣ **Register Student**: Captures and stores a student's face encoding.  
+2️⃣ **Train the model**: The system learns to recognize stored faces.  
+3️⃣ **Mark Attendance**: Recognizes faces in real-time and records attendance.  
 
 ---
 
