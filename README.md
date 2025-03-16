@@ -41,9 +41,7 @@ python app.py
 ```
 
 ---
-
-## 📸 Screenshots *(Optional: Add your own)*
-📷 **[Insert Image of Face Recognition in Action]**  
+ 
 
 ---
 
@@ -87,7 +85,7 @@ Want to improve this project? Contributions are always welcome! Feel free to **f
 
 ## 📱 Contact
 💡 Have questions? Reach out:  
-📧 **Email:** [your-email@example.com]  
+📧 **Email:** [abwolfofficial@gmail.com]  
 🔗 **GitHub:** [https://github.com/AmizhthanX](https://github.com/AmizhthanX)  
 
 ---
